@@ -1,0 +1,19 @@
+
+
+.div{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(167, 210, 250);
+    height: 100px;
+    font-size: 20px;
+}
+
+.titulo{
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.subtitulo{
+    font-weight: bold;
+    color: blue;
+}
