@@ -11,10 +11,10 @@ export default function Home() {
         <div className="bg-slate-400 text-orange-200 font-bold pl-1 pr-1 rounded-md">React</div>
       </div>
       <div className = 'flex justify-center gap-3 m-3'>
-        <Card produto = {'Mouse'} valor = {'R$40,00'}/>
-        <Card produto = {'Teclado'} valor = {'R$60,00'}/>
-        <Card produto = {'Monitor'} valor = {'R$450,00'}/>
-        <Card produto = {'CPU'} valor = {'R$750,00'}/>
+        <Card produto = {'Mouse'} valor = {40.00} desconto = {10}/>
+        <Card produto = {'Teclado'} valor = {60.00} desconto = {0}/>
+        <Card produto = {'Monitor'} valor = {450.00} desconto = {2}/>
+        <Card produto = {'CPU'} valor = {750.00} desconto = {50}/>
       </div>
     </div>   
   )
