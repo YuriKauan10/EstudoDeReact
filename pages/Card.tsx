@@ -1,7 +1,8 @@
 interface CardProps{
     produto: string,
     valor: number,
-    desconto: number
+    desconto: number,
+    funcao: any
 }
 
 function Card(props: CardProps){
@@ -10,6 +11,7 @@ function Card(props: CardProps){
             <div className="cursor-pointer">Produto: {props.produto}</div>
             <div className="cursor-pointer">Valor : R${props.valor}</div>
             <div>Desconto: R${props.desconto}</div>
+            <div>Preço Venda: R$ {props.funcao(props.valor,props.desconto)}</div>
         </div>
     )
 }
