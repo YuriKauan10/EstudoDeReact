@@ -1,5 +1,5 @@
-import Topo from "./Topo"
 import '../styles/globals.css';
+import Topo from "./Topo"
 
 export default function Home() {
   return (
