@@ -52,7 +52,10 @@ export default function ProdutosPagina(){
           produtos.map((element : any, index) => {
             if(element.disponivel){
               return(
-              <Card key = {index} produto={element.produto} valor={element.valor} desconto = {element.desconto} funcao ={Desconto2}/>  
+              <Card key = {index} produto={element.produto} valor={element.valor} desconto = {element.desconto} funcao ={Desconto2} >  
+               <div>Curso de React Next</div>
+               <div>CFB Cursos</div>
+              </Card>
             )}
           })
         }
