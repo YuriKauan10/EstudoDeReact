@@ -11,8 +11,9 @@ function Topo(){
             <nav className='flex justify-center bg-slate-500 text-white gap-4'>
 
             <Link href = '/'>
-            <p>Home</p>
+                <p>Home</p>
             </Link>
+
             <Link href={
                 {
                     pathname: '/produtos/produtos',
@@ -21,10 +22,18 @@ function Topo(){
                     }
                 }
             }>
-            <p>Produtos</p>
+                <p>Produtos</p>
             </Link>
+
+
             <Link href = '/teste/teste'>
-            <p>Teste</p>
+                <p>Teste</p>
+            </Link>
+
+            <Link href={{
+                pathname: '/useState/usestate'
+            }}>
+                <p>useState</p>
             </Link>
             </nav>
         </div>
