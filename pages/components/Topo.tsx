@@ -35,6 +35,9 @@ function Topo(){
             }}>
                 <p>useState</p>
             </Link>
+            <Link href= '/inputs/inputs'>
+                <p>Inputs</p>
+            </Link>
             </nav>
         </div>
     )
