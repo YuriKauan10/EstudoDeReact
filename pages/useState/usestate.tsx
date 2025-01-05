@@ -15,9 +15,7 @@ export default function Usestate(){
     return (
         <div>
             usestate
-            <DisplayState valor={count}></DisplayState>
-            <button className="bg-zinc-700 text-white rounded-md p-1 m-1 hover:bg-zinc-800" onClick = {adicionar}>adicionar</button>
-            <button className="bg-zinc-700 text-white rounded-md p-1 hover:bg-zinc-800" onClick = {subtrair}>subtrair</button>
+            <DisplayState valor={count} funcao = {adicionar} funcao2 = {subtrair}></DisplayState>
         </div>
     )
 }
