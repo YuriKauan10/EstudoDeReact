@@ -1,3 +1,5 @@
+import Topo from "./Topo"
+
 interface DisplayStateProps{
     valor: number,
     fvalor: any,

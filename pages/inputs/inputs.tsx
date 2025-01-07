@@ -1,11 +1,12 @@
 import { useState } from "react"
-
+import Topo from "../components/Topo"
 
 export default function Inputs(){
     const [nome, setNome] = useState<string>("")
     const [curso, setCurso] = useState<string>("")
     return (
         <div>
+            <Topo/>
             <div className="campoForm">
                 <label htmlFor="nome">Nome</label>
                 <input type="text" name="nome" value={nome} onChange={(evt) => setNome(evt.target.value)}/>
