@@ -2,7 +2,8 @@ interface CardProps{
     produto: string,
     valor: number,
     desconto: number,
-    funcao: any
+    funcao: any,
+    children: any
 }
 
 function Card(props: CardProps){
@@ -16,7 +17,7 @@ function Card(props: CardProps){
                     <div>Preço Venda: R$ {props.funcao(props.valor,props.desconto)}</div>
                 </div>
             )}
-
+            <div>{props.children}</div>
         </div>
     )
 }
